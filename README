@@ -1,0 +1,39 @@
+This is Perl module Actor::Fake.
+
+INSTALLATION
+
+Type the following command:
+
+    $ curl -L http://cpanmin.us | perl - Actor::Fake
+
+Or install cpanm and then run the following command to install
+Actor::Fake:
+
+    $ cpanm Actor::Fake
+
+If you get an archive of this distribution, unpack it and build it
+as per the usual:
+
+    $ tar xzf Actor-Fake-$version.tar.gz
+    $ cd Actor-Fake-$version
+    $ perl Makefile.PL
+    $ make && make test
+
+Then install it:
+
+    $ make install
+
+DOCUMENTATION
+
+Actor::Fake documentation is available as in POD. So you can do:
+
+    $ perldoc Actor::Fake
+
+to read the documentation online with your favorite pager.
+
+LICENSE AND COPYRIGHT
+
+Copyright (c) 2011, Fuji, Goro (gfx). All rights reserved.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
