@@ -19,6 +19,8 @@ has _actor_receiver => (
     init_arg => undef,
 );
 
+sub start { }
+
 sub send :method {
     my($self, @args) = @_;
 

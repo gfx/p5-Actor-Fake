@@ -33,6 +33,7 @@ package FibActor {
 
 foreach my $n(1, 5, 10, 20) {
     my $fibactor = FibActor->new(name => "fib($n)");
+    $fibactor->start();
     $fibactor->send($n);
 }
 
